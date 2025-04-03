@@ -58,3 +58,93 @@ h1 {
 		transform: rotate(360deg);
 	}
 }
+
+.addTodoPanel {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+  }
+
+  .addTodoInput {
+	flex-grow: 1;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	margin-right: 10px;
+  }
+
+  .addTodoButton {
+	background-color: #4c8baf;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+  }
+
+  .addTodoButton:hover {
+	background-color: #1a3b4e;
+  }
+
+  .addTodoButton:focus {
+	  outline: none;
+	  box-shadow: 0 0 0 2px rgba(65, 183, 212, 0.5);
+  }
+
+.buttonCase{
+	background-color: #af814c;
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+	float: right;
+}
+
+.buttonCase:hover {
+	background-color: #52381b;
+  }
+
+  .buttonCase:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px rgba(175, 76, 76, 0.5);
+  }
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+
+  }
+
+  .button:hover {
+	background-color: #3e8e41;
+  }
+
+  .button:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.5);
+  }
+
